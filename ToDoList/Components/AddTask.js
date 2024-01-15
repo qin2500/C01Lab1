@@ -32,7 +32,7 @@ export default function AddTask({onAddTask})
                 returnKeyType="done"
                 className = "input"
                 style = {styles.input}
-                
+                value = {title}
             />
             <Button title="+" onPress={()=>(handelAddTask())}/>
         </div>
